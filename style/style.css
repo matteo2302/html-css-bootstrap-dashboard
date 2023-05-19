@@ -1,7 +1,8 @@
+/************************utilities************************/
 .b-d {
   border: 1px dashed black;
 }
-
+/************************nav***********************/
 .logo-mob {
   width: 75px;
 }
@@ -15,6 +16,7 @@ nav {
 .bg-grey {
   background-color: rgb(229, 229, 229);
 }
+/****************************form**********************/
 .form-control {
   border: none;
 }
@@ -22,33 +24,24 @@ form {
   height: 50px;
   border-radius: 10px;
 }
-
+/*************************nav-icons*********************/
 .fa-bell {
   color: rgb(255, 143, 0);
   font-size: 30px;
 }
-
 .fa-list-ul,
 .fa-circle-question,
 .fa-ellipsis-vertical {
   font-size: 20px;
 }
-.tabl,
-.faq {
-  height: 300px;
-}
-.main-cont {
-  height: calc(100vh - 100px);
-  background-color: red;
-
-  width: 100%;
-}
+/***********************aside*********************/
 aside {
-  background-color: green;
+  background-color: rgb(5, 30, 52);
+  background-image: url(/img/sidebar-bg.png);
   width: 80px;
 }
 /******************media aside************************/
-@media all and (min-width: 1110px) {
+@media all and (min-width: 1200px) {
   aside {
     width: 200px;
   }
@@ -59,4 +52,14 @@ main {
 header {
   background-color: yellow;
   height: 150px;
+}
+
+.tabl,
+.faq {
+  height: 300px;
+}
+.main-cont {
+  height: calc(100vh - 100px);
+
+  width: 100%;
 }
