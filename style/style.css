@@ -1,15 +1,34 @@
+.b-d {
+  border: 1px dashed black;
+}
 nav {
   height: 100px;
   background-color: blue;
 }
+.tabl,
+.faq {
+  height: 300px;
+}
 .main-cont {
   height: calc(100vh - 100px);
   background-color: red;
-  overflow: hidden;
+
+  width: 100%;
 }
 aside {
   background-color: green;
+  width: 80px;
+}
+/******************media aside************************/
+@media all and (min-width: 1110px) {
+  aside {
+    width: 200px;
+  }
 }
 main {
   background-color: purple;
+}
+header {
+  background-color: yellow;
+  height: 150px;
 }
