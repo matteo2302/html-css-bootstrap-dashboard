@@ -24,8 +24,14 @@ form {
 }
 
 .fa-bell {
-  font-size: 30px;
   color: rgb(255, 143, 0);
+  font-size: 30px;
+}
+
+.fa-list-ul,
+.fa-circle-question,
+.fa-ellipsis-vertical {
+  font-size: 20px;
 }
 .tabl,
 .faq {
