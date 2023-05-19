@@ -1,0 +1,15 @@
+nav {
+  height: 100px;
+  background-color: blue;
+}
+.main-cont {
+  height: calc(100vh - 100px);
+  background-color: red;
+  overflow: hidden;
+}
+aside {
+  background-color: green;
+}
+main {
+  background-color: purple;
+}
