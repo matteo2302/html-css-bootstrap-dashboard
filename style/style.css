@@ -70,9 +70,6 @@ td i {
 .copied {
   height: 40px;
 }
-th :not(:first-child) {
-  width: 200px;
-}
 
 /******************media************************/
 @media all and (min-width: 1200px) {
