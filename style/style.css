@@ -43,36 +43,43 @@ aside {
   background-image: url(/img/sidebar-bg.png);
   width: 80px;
 }
-/******************media aside************************/
-@media all and (min-width: 1200px) {
-  aside {
-    width: 200px;
-  }
-  .tb-fq {
-    width: 60%;
-  }
-}
-main {
-  background-color: purple;
-}
+
 header {
   background-color: yellow;
   height: 150px;
 }
 
-.tabl,
 .faq {
   height: 300px;
 }
 .main-cont {
   height: calc(100vh - 100px);
-
   width: 100%;
 }
 .tabl {
   height: 800px;
+  border: 1px solid rgb(108, 117, 125);
+}
+td i {
+  padding: 10px;
+  border: 1px solid rgb(108, 117, 125);
+  border-radius: 5px;
+  color: rgb(108, 117, 125);
+  text-align: center;
 }
 .copied {
   height: 40px;
 }
-/**********************************media**********************************/
+th :not(:first-child) {
+  width: 200px;
+}
+
+/******************media************************/
+@media all and (min-width: 1200px) {
+  aside {
+    width: 200px;
+  }
+  .tb-fq {
+    width: 70%;
+  }
+}
