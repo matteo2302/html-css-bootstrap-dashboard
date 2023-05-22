@@ -54,9 +54,7 @@ header {
   width: 100%;
 }
 /**************************************table**********************************/
-.tabl {
-  border: 1px solid rgb(108, 117, 125);
-}
+
 td i {
   padding: 10px;
   border: 1px solid rgb(108, 117, 125);
@@ -71,10 +69,17 @@ td i {
 .form-check {
   border: 1px solid rgb(232, 232, 232);
 }
+/**********************************stats***********************************/
+.stats img {
+  height: 500px;
+}
+.p-stats {
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
 /******************media************************/
 @media all and (min-width: 1200px) {
   aside {
-    width: 200px;
+    width: 150px;
   }
   .tb-fq {
     width: 70%;
