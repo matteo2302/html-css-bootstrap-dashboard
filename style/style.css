@@ -44,15 +44,15 @@ aside {
 /*******************************header********************************************/
 header {
   background-color: rgb(27, 114, 232);
-  min-height: 150px;
+  min-height: 10px;
   color: white;
 }
 .header-colh {
-  height: 100px;
+  height: 120px;
 }
 .fa-plus-i {
   font-size: 30px;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 10px;
   border: 1px solid white;
   color: white;
@@ -74,6 +74,9 @@ td i {
   border-radius: 5px;
   color: rgb(108, 117, 125);
   text-align: center;
+}
+td:not(:nth-child(1)) {
+  width: 100px;
 }
 .copied {
   height: 40px;
