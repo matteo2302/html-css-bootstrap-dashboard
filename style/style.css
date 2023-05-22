@@ -2,9 +2,7 @@
 .b-d {
   border: 1px dashed black;
 }
-h2 {
-  background-color: rgb(247, 247, 247);
-}
+
 /************************nav***********************/
 .logo-mob {
   width: 75px;
@@ -45,8 +43,23 @@ aside {
 }
 /*******************************header********************************************/
 header {
-  background-color: yellow;
-  height: 150px;
+  background-color: rgb(27, 114, 232);
+  min-height: 150px;
+  color: white;
+}
+.header-colh {
+  height: 100px;
+}
+.fa-plus-i {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+.Blaze {
+  font-size: 15px;
 }
 /***************************************main-content***********************/
 .main-cont {
