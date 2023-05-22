@@ -67,7 +67,10 @@ td i {
 .copied {
   height: 40px;
 }
-
+/*********************************checking********************************/
+.form-check {
+  border: 1px solid rgb(232, 232, 232);
+}
 /******************media************************/
 @media all and (min-width: 1200px) {
   aside {
