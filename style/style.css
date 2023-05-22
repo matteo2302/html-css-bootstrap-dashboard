@@ -43,21 +43,18 @@ aside {
   background-image: url(/img/sidebar-bg.png);
   width: 80px;
 }
-
+/*******************************header********************************************/
 header {
   background-color: yellow;
   height: 150px;
 }
-
-.faq {
-  height: 300px;
-}
+/***************************************main-content***********************/
 .main-cont {
   height: calc(100vh - 100px);
   width: 100%;
 }
+/**************************************table**********************************/
 .tabl {
-  height: 800px;
   border: 1px solid rgb(108, 117, 125);
 }
 td i {
