@@ -2,6 +2,9 @@
 .b-d {
   border: 1px dashed black;
 }
+h2 {
+  background-color: rgb(247, 247, 247);
+}
 /************************nav***********************/
 .logo-mob {
   width: 75px;
@@ -45,6 +48,9 @@ aside {
   aside {
     width: 200px;
   }
+  .tb-fq {
+    width: 60%;
+  }
 }
 main {
   background-color: purple;
@@ -63,3 +69,10 @@ header {
 
   width: 100%;
 }
+.tabl {
+  height: 800px;
+}
+.copied {
+  height: 40px;
+}
+/**********************************media**********************************/
